@@ -29,7 +29,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/1-clicks
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -60,7 +60,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/1-clicks/kubernetes
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -91,7 +91,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/account
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -122,7 +122,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/account/keys
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -153,7 +153,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/account/keys
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -184,7 +184,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/account/keys/{ssh_key_identifier}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -215,7 +215,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/account/keys/{ssh_key_identifier}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -246,7 +246,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/account/keys/{ssh_key_identifier}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -277,7 +277,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/actions/{action_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -308,7 +308,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -339,7 +339,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/apps/{app_id}/alerts/{alert_id}/destinations
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -370,7 +370,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/{app_id}/alerts
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -401,7 +401,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/{app_id}/components/{component_name}/logs
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -432,7 +432,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/apps/{app_id}/deployments/{deployment_id}/cancel
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -463,7 +463,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/{app_id}/deployments/{deployment_id}/components/{component_name}/logs
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -494,7 +494,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/{app_id}/deployments/{deployment_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -525,7 +525,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/{app_id}/deployments/{deployment_id}/logs
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -556,7 +556,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/{app_id}/deployments
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -587,7 +587,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/apps/{app_id}/deployments
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -618,7 +618,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/{app_id}/logs
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -649,7 +649,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/{app_id}/metrics/bandwidth_daily
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -680,7 +680,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/apps/{app_id}/rollback/commit
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -711,7 +711,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/apps/{app_id}/rollback
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -742,7 +742,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/apps/{app_id}/rollback/revert
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -773,7 +773,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/apps/{app_id}/rollback/validate
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -804,7 +804,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -835,7 +835,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/apps/{id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -866,7 +866,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/{id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -897,7 +897,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/apps/{id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -928,7 +928,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/apps/metrics/bandwidth_daily
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -959,7 +959,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/apps
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -990,7 +990,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/apps/propose
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1021,7 +1021,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/regions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1052,7 +1052,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/tiers
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1083,7 +1083,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/tiers/instance_sizes
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1114,7 +1114,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/tiers/instance_sizes/{slug}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1145,7 +1145,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/apps/tiers/{slug}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1176,7 +1176,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/cdn/endpoints/{cdn_id}/cache
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1207,7 +1207,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/cdn/endpoints/{cdn_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1238,7 +1238,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/cdn/endpoints/{cdn_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1269,7 +1269,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/cdn/endpoints/{cdn_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1300,7 +1300,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/cdn/endpoints
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1331,7 +1331,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/cdn/endpoints
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1362,7 +1362,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/certificates/{certificate_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1393,7 +1393,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/certificates/{certificate_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1424,7 +1424,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/certificates
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1455,7 +1455,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/certificates
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1486,7 +1486,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/customers/my/balance
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1517,7 +1517,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/customers/my/billing_history
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1548,7 +1548,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/customers/my/invoices
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1579,7 +1579,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/customers/my/invoices/{invoice_uuid}/csv
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1610,7 +1610,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/customers/my/invoices/{invoice_uuid}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1641,7 +1641,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/customers/my/invoices/{invoice_uuid}/pdf
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1672,7 +1672,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/customers/my/invoices/{invoice_uuid}/summary
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1703,7 +1703,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/backups
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1734,7 +1734,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/ca
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1765,7 +1765,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/config
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1796,7 +1796,7 @@ open class DefaultAPI {
 
 
     /// - PATCH /v2/databases/{database_cluster_uuid}/config
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1827,7 +1827,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/databases/{database_cluster_uuid}/dbs/{database_name}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1858,7 +1858,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/dbs/{database_name}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1889,7 +1889,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/dbs
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1920,7 +1920,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/databases/{database_cluster_uuid}/dbs
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1951,7 +1951,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/databases/{database_cluster_uuid}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -1982,7 +1982,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/eviction_policy
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2013,7 +2013,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/databases/{database_cluster_uuid}/eviction_policy
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2044,7 +2044,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/firewall
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2075,7 +2075,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/databases/{database_cluster_uuid}/firewall
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2106,7 +2106,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2137,7 +2137,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/databases/{database_cluster_uuid}/maintenance
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2168,7 +2168,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/databases/{database_cluster_uuid}/migrate
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2199,7 +2199,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/online-migration
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2230,7 +2230,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/databases/{database_cluster_uuid}/online-migration/{migration_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2261,7 +2261,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/databases/{database_cluster_uuid}/online-migration
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2292,7 +2292,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/pools
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2323,7 +2323,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/databases/{database_cluster_uuid}/pools/{pool_name}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2354,7 +2354,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/pools/{pool_name}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2385,7 +2385,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/databases/{database_cluster_uuid}/pools/{pool_name}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2416,7 +2416,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/databases/{database_cluster_uuid}/pools
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2447,7 +2447,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/replicas
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2478,7 +2478,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/databases/{database_cluster_uuid}/replicas
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2509,7 +2509,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/databases/{database_cluster_uuid}/replicas/{replica_name}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2540,7 +2540,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/replicas/{replica_name}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2571,7 +2571,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/databases/{database_cluster_uuid}/replicas/{replica_name}/promote
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2602,7 +2602,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/databases/{database_cluster_uuid}/resize
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2633,7 +2633,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/sql_mode
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2664,7 +2664,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/databases/{database_cluster_uuid}/sql_mode
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2695,7 +2695,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/databases/{database_cluster_uuid}/upgrade
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2726,7 +2726,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/users
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2757,7 +2757,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/databases/{database_cluster_uuid}/users
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2788,7 +2788,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/databases/{database_cluster_uuid}/users/{username}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2819,7 +2819,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/{database_cluster_uuid}/users/{username}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2850,7 +2850,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/databases/{database_cluster_uuid}/users/{username}/reset_auth
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2881,7 +2881,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2912,7 +2912,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/databases/options
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2943,7 +2943,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/databases
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -2974,7 +2974,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/domains/{domain_name}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3005,7 +3005,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/domains/{domain_name}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3036,7 +3036,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/domains/{domain_name}/records/{domain_record_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3067,7 +3067,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/domains/{domain_name}/records/{domain_record_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3098,7 +3098,7 @@ open class DefaultAPI {
 
 
     /// - PATCH /v2/domains/{domain_name}/records/{domain_record_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3129,7 +3129,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/domains/{domain_name}/records/{domain_record_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3160,7 +3160,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/domains/{domain_name}/records
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3191,7 +3191,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/domains/{domain_name}/records
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3222,7 +3222,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/domains
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3253,7 +3253,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/domains
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3284,7 +3284,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/droplets/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3315,7 +3315,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/droplets
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3346,7 +3346,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/droplets/{droplet_id}/actions/{action_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3377,7 +3377,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/droplets/{droplet_id}/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3408,7 +3408,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/droplets/{droplet_id}/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3439,7 +3439,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/droplets/{droplet_id}/backups
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3470,7 +3470,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/droplets/{droplet_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3501,7 +3501,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/droplets/{droplet_id}/destroy_with_associated_resources/dangerous
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3532,7 +3532,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/droplets/{droplet_id}/destroy_with_associated_resources
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3563,7 +3563,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/droplets/{droplet_id}/destroy_with_associated_resources/retry
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3594,7 +3594,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/droplets/{droplet_id}/destroy_with_associated_resources/selective
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3625,7 +3625,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/droplets/{droplet_id}/destroy_with_associated_resources/status
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3656,7 +3656,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/droplets/{droplet_id}/firewalls
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3687,7 +3687,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/droplets/{droplet_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3718,7 +3718,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/droplets/{droplet_id}/kernels
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3749,7 +3749,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/droplets/{droplet_id}/neighbors
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3780,7 +3780,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/droplets/{droplet_id}/snapshots
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3811,7 +3811,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/droplets
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3842,7 +3842,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/droplets
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3873,7 +3873,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/firewalls/{firewall_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3904,7 +3904,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/firewalls/{firewall_id}/droplets
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3935,7 +3935,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/firewalls/{firewall_id}/droplets
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3966,7 +3966,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/firewalls/{firewall_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -3997,7 +3997,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/firewalls/{firewall_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4028,7 +4028,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/firewalls/{firewall_id}/rules
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4059,7 +4059,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/firewalls/{firewall_id}/rules
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4090,7 +4090,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/firewalls/{firewall_id}/tags
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4121,7 +4121,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/firewalls/{firewall_id}/tags
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4152,7 +4152,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/firewalls
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4183,7 +4183,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/firewalls
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4214,7 +4214,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/floating_ips/{floating_ip}/actions/{action_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4245,7 +4245,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/floating_ips/{floating_ip}/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4276,7 +4276,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/floating_ips/{floating_ip}/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4307,7 +4307,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/floating_ips/{floating_ip}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4338,7 +4338,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/floating_ips/{floating_ip}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4369,7 +4369,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/floating_ips
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4400,7 +4400,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/floating_ips
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4431,7 +4431,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/functions/namespaces
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4462,7 +4462,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/functions/namespaces/{namespace_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4493,7 +4493,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/functions/namespaces/{namespace_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4524,7 +4524,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/functions/namespaces/{namespace_id}/triggers
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4555,7 +4555,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/functions/namespaces/{namespace_id}/triggers
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4586,7 +4586,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/functions/namespaces/{namespace_id}/triggers/{trigger_name}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4617,7 +4617,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/functions/namespaces/{namespace_id}/triggers/{trigger_name}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4648,7 +4648,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/functions/namespaces/{namespace_id}/triggers/{trigger_name}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4679,7 +4679,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/functions/namespaces
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4710,7 +4710,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/images
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4741,7 +4741,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/images/{image_id}/actions/{action_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4772,7 +4772,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/images/{image_id}/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4803,7 +4803,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/images/{image_id}/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4834,7 +4834,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/images/{image_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4865,7 +4865,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/images/{image_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4896,7 +4896,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/images/{image_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4927,7 +4927,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/images
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4958,7 +4958,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/kubernetes/clusters/{cluster_id}/clusterlint
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -4989,7 +4989,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/kubernetes/clusters/{cluster_id}/clusterlint
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5020,7 +5020,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/kubernetes/clusters/{cluster_id}/credentials
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5051,7 +5051,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/kubernetes/clusters/{cluster_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5082,7 +5082,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/kubernetes/clusters/{cluster_id}/destroy_with_associated_resources/dangerous
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5113,7 +5113,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/kubernetes/clusters/{cluster_id}/destroy_with_associated_resources
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5144,7 +5144,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/kubernetes/clusters/{cluster_id}/destroy_with_associated_resources/selective
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5175,7 +5175,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/kubernetes/clusters/{cluster_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5206,7 +5206,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/kubernetes/clusters/{cluster_id}/kubeconfig
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5237,7 +5237,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/kubernetes/clusters/{cluster_id}/node_pools
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5268,7 +5268,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/kubernetes/clusters/{cluster_id}/node_pools/{node_pool_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5299,7 +5299,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/kubernetes/clusters/{cluster_id}/node_pools/{node_pool_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5330,7 +5330,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/kubernetes/clusters/{cluster_id}/node_pools/{node_pool_id}/nodes/{node_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5361,7 +5361,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/kubernetes/clusters/{cluster_id}/node_pools/{node_pool_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5392,7 +5392,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/kubernetes/clusters/{cluster_id}/node_pools/{node_pool_id}/recycle
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5423,7 +5423,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/kubernetes/clusters/{cluster_id}/node_pools
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5454,7 +5454,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/kubernetes/clusters/{cluster_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5485,7 +5485,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/kubernetes/clusters/{cluster_id}/upgrade
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5516,7 +5516,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/kubernetes/clusters/{cluster_id}/upgrades
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5547,7 +5547,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/kubernetes/clusters/{cluster_id}/user
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5578,7 +5578,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/kubernetes/clusters
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5609,7 +5609,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/kubernetes/clusters
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5640,7 +5640,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/kubernetes/options
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5671,7 +5671,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/kubernetes/registry
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5702,7 +5702,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/kubernetes/registry
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5733,7 +5733,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/load_balancers
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5764,7 +5764,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/load_balancers/{lb_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5795,7 +5795,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/load_balancers/{lb_id}/droplets
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5826,7 +5826,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/load_balancers/{lb_id}/droplets
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5857,7 +5857,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/load_balancers/{lb_id}/forwarding_rules
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5888,7 +5888,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/load_balancers/{lb_id}/forwarding_rules
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5919,7 +5919,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/load_balancers/{lb_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5950,7 +5950,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/load_balancers/{lb_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -5981,7 +5981,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/load_balancers
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6012,7 +6012,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/monitoring/alerts/{alert_uuid}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6043,7 +6043,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/alerts/{alert_uuid}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6074,7 +6074,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/monitoring/alerts/{alert_uuid}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6105,7 +6105,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/alerts
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6136,7 +6136,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/monitoring/alerts
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6167,7 +6167,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/metrics/droplet/bandwidth
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6198,7 +6198,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/metrics/droplet/cpu
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6229,7 +6229,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/metrics/droplet/filesystem_free
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6260,7 +6260,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/metrics/droplet/filesystem_size
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6291,7 +6291,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/metrics/droplet/load_15
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6322,7 +6322,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/metrics/droplet/load_1
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6353,7 +6353,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/metrics/droplet/load_5
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6384,7 +6384,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/metrics/droplet/memory_available
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6415,7 +6415,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/metrics/droplet/memory_cached
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6446,7 +6446,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/metrics/droplet/memory_free
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6477,7 +6477,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/monitoring/metrics/droplet/memory_total
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6508,7 +6508,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/projects/default
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6539,7 +6539,7 @@ open class DefaultAPI {
 
 
     /// - PATCH /v2/projects/default
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6570,7 +6570,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/projects/default
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6601,7 +6601,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/projects/default/resources
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6632,7 +6632,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/projects/default/resources
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6663,7 +6663,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/projects
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6694,7 +6694,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/projects
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6725,7 +6725,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/projects/{project_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6756,7 +6756,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/projects/{project_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6787,7 +6787,7 @@ open class DefaultAPI {
 
 
     /// - PATCH /v2/projects/{project_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6818,7 +6818,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/projects/{project_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6849,7 +6849,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/projects/{project_id}/resources
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6880,7 +6880,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/projects/{project_id}/resources
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6911,7 +6911,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/regions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6942,7 +6942,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/registry
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -6973,7 +6973,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/registry/docker-credentials
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7004,7 +7004,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/registry
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7035,7 +7035,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/registry/options
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7066,7 +7066,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/registry
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7097,7 +7097,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/registry/{registry_name}/garbage-collection/{garbage_collection_uuid}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7128,7 +7128,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/registry/{registry_name}/garbage-collection
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7159,7 +7159,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/registry/{registry_name}/garbage-collection
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7190,7 +7190,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/registry/{registry_name}/garbage-collections
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7221,7 +7221,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/registry/{registry_name}/repositories
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7252,7 +7252,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/registry/{registry_name}/repositoriesV2
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7283,7 +7283,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/registry/{registry_name}/{repository_name}/digests
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7314,7 +7314,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/registry/{registry_name}/{repository_name}/digests/{manifest_digest}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7345,7 +7345,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/registry/{registry_name}/{repository_name}/tags
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7376,7 +7376,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/registry/{registry_name}/{repository_name}/tags/{repository_tag}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7407,7 +7407,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/registry/subscription
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7438,7 +7438,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/registry/subscription
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7469,7 +7469,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/registry/validate-name
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7500,7 +7500,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/reports/droplet_neighbors_ids
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7531,7 +7531,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/reserved_ips
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7562,7 +7562,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/reserved_ips
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7593,7 +7593,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/reserved_ips/{reserved_ip}/actions/{action_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7624,7 +7624,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/reserved_ips/{reserved_ip}/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7655,7 +7655,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/reserved_ips/{reserved_ip}/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7686,7 +7686,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/reserved_ips/{reserved_ip}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7717,7 +7717,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/reserved_ips/{reserved_ip}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7748,7 +7748,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/sizes
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7779,7 +7779,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/snapshots
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7810,7 +7810,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/snapshots/{snapshot_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7841,7 +7841,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/snapshots/{snapshot_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7872,7 +7872,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/tags
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7903,7 +7903,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/tags
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7934,7 +7934,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/tags/{tag_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7965,7 +7965,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/tags/{tag_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -7996,7 +7996,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/tags/{tag_id}/resources
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8027,7 +8027,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/tags/{tag_id}/resources
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8058,7 +8058,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/uptime/checks/{check_id}/alerts/{alert_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8089,7 +8089,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/uptime/checks/{check_id}/alerts/{alert_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8120,7 +8120,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/uptime/checks/{check_id}/alerts/{alert_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8151,7 +8151,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/uptime/checks/{check_id}/alerts
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8182,7 +8182,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/uptime/checks/{check_id}/alerts
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8213,7 +8213,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/uptime/checks/{check_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8244,7 +8244,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/uptime/checks/{check_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8275,7 +8275,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/uptime/checks/{check_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8306,7 +8306,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/uptime/checks/{check_id}/state
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8337,7 +8337,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/uptime/checks
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8368,7 +8368,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/uptime/checks
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8399,7 +8399,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/volumes/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8430,7 +8430,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/volumes
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8461,7 +8461,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/volumes
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8492,7 +8492,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/volumes
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8523,7 +8523,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/volumes/snapshots/{snapshot_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8554,7 +8554,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/volumes/snapshots/{snapshot_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8585,7 +8585,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/volumes/{volume_id}/actions/{action_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8616,7 +8616,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/volumes/{volume_id}/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8647,7 +8647,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/volumes/{volume_id}/actions
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8678,7 +8678,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/volumes/{volume_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8709,7 +8709,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/volumes/{volume_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8740,7 +8740,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/volumes/{volume_id}/snapshots
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8771,7 +8771,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/volumes/{volume_id}/snapshots
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8802,7 +8802,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/vpcs
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8833,7 +8833,7 @@ open class DefaultAPI {
 
 
     /// - POST /v2/vpcs
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8864,7 +8864,7 @@ open class DefaultAPI {
 
 
     /// - DELETE /v2/vpcs/{vpc_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8895,7 +8895,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/vpcs/{vpc_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8926,7 +8926,7 @@ open class DefaultAPI {
 
 
     /// - GET /v2/vpcs/{vpc_id}/members
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8957,7 +8957,7 @@ open class DefaultAPI {
 
 
     /// - PATCH /v2/vpcs/{vpc_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
@@ -8988,7 +8988,7 @@ open class DefaultAPI {
 
 
     /// - PUT /v2/vpcs/{vpc_id}
-    /// - BASIC:
+    /// - :
     /// - type: http
     /// - name: bearer_auth
     /// - returns: AnyPublisher<Void, Error> 
